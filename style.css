@@ -1,0 +1,594 @@
+body {
+    background-image: url(pics/banner.png);
+    background-repeat: no repeat;
+}
+
+.intro {
+    width: 100%;
+    background-color: rgba(4, 9, 30, 0.7);
+
+
+}
+
+.section-intro {
+    width: 80%;
+    background-color: rgba(4, 9, 30, 0.7);
+    text-align: center;
+    margin: 75px 25px 25px 120px;
+    padding: 25px 23px 35px 25px;
+    border: 1px solid rgba(4, 9, 30, 0.7);
+    border-radius: 25px ;
+
+}
+
+.courses {
+    width: 80%;
+    background-color: rgba(4, 9, 30, 0.7);
+    text-align: center;
+    margin: 75px 25px 25px 120px;
+    padding: 25px 23px 50px 25px;
+    border: 1px solid rgba(4, 9, 30, 0.7);
+     border-radius: 25px ;
+
+
+}
+
+.campuses {
+    width: 80%;
+    background-color: rgba(4, 9, 30, 0.7);
+    text-align: center;
+    margin: 100px 25px 25px 120px;
+    padding: 25px 23px 60px 25px;
+    border: 1px solid rgba(4, 9, 30, 0.7);
+     border-radius: 25px ;
+
+
+
+}
+.facilities {
+    width: 80%;
+    background-color: rgba(4, 9, 30, 0.7);
+    text-align: center;
+    margin: 100px 25px 25px 120px;
+    padding: 25px 23px 60px 25px;
+    border: 1px solid rgba(4, 9, 30, 0.7);
+     border-radius: 25px ;
+
+
+
+}
+.testimonials {
+    width: 80%;
+    background-color: rgba(4, 9, 30, 0.7);
+    text-align: center;
+    margin: 100px 25px 25px 120px;
+    padding: 25px 23px 60px 25px;
+    border: 1px solid rgba(4, 9, 30, 0.7);
+     border-radius: 25px ;
+
+
+
+}
+.contact-us {
+    width: 80%;
+    background-image:  url(pics/banner2.jpg);
+    background-size: 100%;
+    
+    text-align: center;
+    margin: 100px 25px 25px 120px;
+    padding: 25px 23px 60px 25px;
+    border: 1px solid rgba(4, 9, 30, 0.7);
+     border-radius: 25px ;
+
+
+
+}
+.footer {
+    width: 80%;
+    background-color: rgba(4, 9, 30, 0.7);
+    text-align: center;
+    margin: 75px 25px 25px 120px;
+    padding: 25px 23px 35px 25px;
+    border: 1px solid rgba(4, 9, 30, 0.7);
+    border-radius: 25px ;
+
+}
+nav {
+    display: flex;
+    padding: 10px 60px 10px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    float: right;
+}
+
+ul {
+    display: inline;
+}
+
+.a {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.a:hover {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 2.5px solid rgba(4, 9, 30, 0.7);
+    transition: 0.5s;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    text-transform: capitalize;
+
+}
+
+
+h2 {
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+
+}
+
+h3 {
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+p {
+    color: white;
+    font-size: 20px;
+
+}
+
+.row {
+    width: 80%;
+    background-color: brown;
+    margin: 25px 23px 25px 111px;
+    padding: 35px 23px 290px 25px;
+
+
+
+}
+
+.row1 {
+    width: 80%;
+    background-color: rgba(226, 0, 0, 0.4);
+    margin: 25px 23px 40px 111px;
+    padding: 20px 20px 430px 20px;
+
+
+
+}
+.row3 {
+    width: 80%;
+    
+    margin: 25px 23px 40px 111px;
+    padding: 20px 20px 440px 20px;
+
+
+
+}
+
+.course-col {
+    width: 26%;
+    float: left;
+
+    margin: 20px;
+}
+
+
+
+.campus-col {
+    width: 26%;
+    float: left;
+    border: 3px solid rgba(226, 0, 0, 0.5);
+    border-radius: 20px;
+    margin: 25px 25px 25px 25px;
+}
+.faci-col {
+    width: 26%;
+    float: left;
+    border: 3px solid rgba(226, 0, 0, 0.5);
+    border-radius: 20px;
+    margin: 25px 25px 25px 25px;
+}
+ .testimonials-col1 {
+    width: 37%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin: 20px;
+     text-align: center;
+    padding: 25px;
+    cursor: pointer;
+    height: 400px;
+
+background-color: rgb(222, 184, 135,0.4);
+float: left;
+} 
+.testimonials-col2 {
+    width: 37%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin: 20px;
+     text-align: center;
+    padding: 25px;
+    cursor: pointer;
+    height: 400px;
+
+background-color: rgb(222, 184, 135,0.4);
+float: left;
+} 
+.test-img {
+    width: 150px;
+    float: left;
+    margin: 20px;
+    padding-right: 100px;
+}
+
+.faci-col:hover {
+    width: 26%;
+    float: left;
+    border: 3px solid rgba(226, 0, 0, 0.5);
+    border-radius: 20px;
+    margin: 25px 25px 25px 25px;
+}
+
+
+.campus-col:hover {
+    width: 26%;
+    float: left;
+    border: 3px solid rgba(226, 0, 0, 0.5);
+    border-radius: 23px;
+    margin: 25px 25px 25px 25px;
+    background-color: rgba(41, 27, 161, 0.5);
+    transition: o.5s;
+
+}
+
+.course-p {
+    border: 4px solid rgba(4, 9, 30, 0.7);
+    padding: 30px 23px 20px 25px;
+}
+
+.visit {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border: 2px solid brown;
+    padding: 6px;
+    background-color: blueviolet;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.contact {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    border: 2px solid brown;
+    padding: 6px;
+    background-color: rgb(138, 43, 226,0.5);
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.visit:hover {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border: 2px solid brown;
+    padding: 6px;
+    background-color: rgb(138, 43, 226,0.9);
+    ;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.contact:hover {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border: 2px solid brown;
+    padding: 6px;
+    background-color: rgb(138, 43, 226,0.4);
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+
+@media only screen and (max-width: 750px) {
+    .nav-links {
+        position: absolute;
+        background-color: brown;
+        padding: 30px 60px 10px 10px;
+        align-items: center;
+        height: 250px;
+        width: 150px;
+        text-align: left;
+        z-index: 2;
+        float: right;
+        top: 0%;
+        right: 0;
+    }
+
+    .section-intro {
+
+        background-color: rgba(4, 9, 30, 0.7);
+        text-align: center;
+        margin: 25px 0px 25px 30px;
+
+
+
+
+    
+
+    } 
+
+    .campuses {
+
+        background-color: rgba(4, 9, 30, 0.7);
+        text-align: center;
+        margin: 50px 0px 25px 30px;
+
+
+
+    }
+
+    .courses {
+       
+        background-color: rgba(4, 9, 30, 0.7);
+        text-align: center;
+        margin: 50px 0px 25px 30px;
+
+
+
+    }
+    .facilities {
+       
+        background-color: rgba(4, 9, 30, 0.7);
+        text-align: center;
+        margin: 50px 0px 25px 30px;
+
+
+
+    }
+    .testimonials {
+       
+        background-color: rgba(4, 9, 30, 0.7);
+        text-align: center;
+        margin: 50px 0px 25px 30px;
+
+
+
+    }
+    .contact-us {
+       
+        background-color:  url(pics/banner2.jpg),rgba(4, 9, 30, 0.7) ;
+        text-align: center;
+        margin: 50px 0px 25px 30px;
+        border: 2px solid red;
+        border-radius: 20px;
+        padding-bottom: 20px;
+
+
+
+    }
+    .section-intro {
+
+        background-color: rgba(4, 9, 30, 0.7);
+        text-align: center;
+        margin: 25px 0px 25px 30px;
+
+
+
+
+    
+
+    } .footer {
+
+        background-color: rgba(151, 155, 168, 0.7);
+        text-align: center;
+        margin: 50px 0px 25px 30px;
+        padding-bottom: 150px;
+        
+
+
+
+
+    
+
+    } 
+
+
+
+
+    h1 {
+        color: white;
+        font-size: 19px;
+        text-transform: capitalize;
+
+    }
+
+    h2 {
+        color: white;
+        font-size: 14px;
+        text-transform: capitalize;
+
+
+    }
+
+    h3 {
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+    li {
+        display: block;
+
+    }
+
+
+
+    .a {
+        padding: 30px 23px 20px 25px;
+        text-transform: uppercase;
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    .a:hover {
+        text-transform: uppercase;
+        color: white;
+        font-size: 15px;
+        text-decoration: none;
+        transition: 0.5s;
+    }
+
+    p {
+        color: white;
+        font-size: 18px;
+
+    }
+    .row {
+        width: 100%;
+        background-color: transparent;
+        margin: 25px 23px 25px 0px;
+        padding: 35px 23px 290px 0px;
+    
+    
+    
+    }
+    
+    .row1 {
+        width: 100%;
+        background-color: transparent;
+        margin: 25px 23px 40px 0px;
+        padding: 20px 20px 430px 0px;
+    
+    
+    
+    }
+    .row3 {
+        width: 100%;
+        background-color: transparent;
+        margin: 25px 23px 80px 50px;
+        padding: 20px 20px 900px 0px;
+    
+    
+    
+    }
+    
+    .course-col {
+        width:80%;
+          display: inline-block;
+          border: 3px solid rgba(226, 0, 0, 0.5);
+          border-radius: 20px;
+          margin: 25px 25px 25px 25px;
+      }
+    
+    .campus-col {
+      width:80%;
+        display: inline-block;
+        border: 3px solid rgba(226, 0, 0, 0.5);
+        border-radius: 20px;
+        margin: 25px 25px 25px 25px;
+    }
+    .faci-col {
+        width:80%;
+          display: inline-block;
+          border: 3px solid rgba(226, 0, 0, 0.5);
+          border-radius: 20px;
+          margin: 25px 25px 25px 0px;
+      }
+      .testimonials-col1 {
+        width: 50%;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        margin: 20px;
+         text-align: center;
+        padding: 25px;
+        cursor: pointer;
+        height: 400px;
+    
+    background-color: rgb(222, 184, 135,0.4);
+    float: left;
+    } 
+    .testimonials-col2 {
+        width: 50%;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        margin: 20px;
+         text-align: center;
+        padding: 25px 25px 42px 25px;
+        cursor: pointer;
+        height: 400px;
+    
+    background-color: rgb(222, 184, 135,0.4);
+    float: left;
+    } 
+    .campus-col:hover {
+        width:80%;
+          display: inline-block;
+          border: 3px solid rgba(226, 0, 0, 0.5);
+          border-radius: 20px;
+          margin: 25px 25px 25px 25px;
+      }
+    
+   
+
+      .faci-col:hover {
+        width:80%;
+          display: inline-block;
+          border: 3px solid rgba(226, 0, 0, 0.5);
+          border-radius: 20px;
+          margin: 25px 25px 25px 30px;
+          background-color: rgb(240, 255, 255, 0.2);
+      }
+    
+    .visit {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+        border: 2px solid brown;
+        padding: 6px;
+        background-color: blueviolet;
+        font-weight: bolder;
+        text-transform: capitalize;
+    }
+    
+    .visit:hover {
+        display: inline-block;
+        text-decoration: none;
+        font-size: 19px;
+        color: white;
+        border: 2px solid brown;
+        padding: 6px;
+        background-color: blueviolet;
+        font-weight: bolder;
+        text-transform: capitalize;
+    }
+    .test-img {
+        width: 70px;
+        float: left;
+        margin: 15px;
+        border: 1px solid black;
+       
+    }
+}
